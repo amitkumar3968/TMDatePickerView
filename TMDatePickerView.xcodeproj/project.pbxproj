@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00F29331A4A98D700CB4DC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F29321A4A98D700CB4DC6 /* main.m */; };
+		A00F29361A4A98D800CB4DC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F29351A4A98D800CB4DC6 /* AppDelegate.m */; };
+		A00F29391A4A98D800CB4DC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F29381A4A98D800CB4DC6 /* ViewController.m */; };
+		A00F293C1A4A98D800CB4DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00F293A1A4A98D800CB4DC6 /* Main.storyboard */; };
+		A00F293E1A4A98D800CB4DC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00F293D1A4A98D800CB4DC6 /* Images.xcassets */; };
+		A00F29411A4A98D800CB4DC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00F293F1A4A98D800CB4DC6 /* LaunchScreen.xib */; };
+		A00F294D1A4A98D800CB4DC6 /* TMDatePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F294C1A4A98D800CB4DC6 /* TMDatePickerViewTests.m */; };
+		A00F29741A4AA6BB00CB4DC6 /* CustomTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F295A1A4AA6BB00CB4DC6 /* CustomTimePicker.m */; };
+		A00F29751A4AA6BB00CB4DC6 /* CalendarPreviousMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F295C1A4AA6BB00CB4DC6 /* CalendarPreviousMonth.png */; };
+		A00F29761A4AA6BB00CB4DC6 /* CalendarPreviousMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F295D1A4AA6BB00CB4DC6 /* CalendarPreviousMonth@2x.png */; };
+		A00F29771A4AA6BB00CB4DC6 /* CalendarRow.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F295E1A4AA6BB00CB4DC6 /* CalendarRow.png */; };
+		A00F29781A4AA6BB00CB4DC6 /* CalendarRow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F295F1A4AA6BB00CB4DC6 /* CalendarRow@2x.png */; };
+		A00F29791A4AA6BB00CB4DC6 /* CalendarRowBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F29601A4AA6BB00CB4DC6 /* CalendarRowBottom.png */; };
+		A00F297A1A4AA6BB00CB4DC6 /* CalendarRowBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F29611A4AA6BB00CB4DC6 /* CalendarRowBottom@2x.png */; };
+		A00F297B1A4AA6BB00CB4DC6 /* CalendarSelectedDate.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F29621A4AA6BB00CB4DC6 /* CalendarSelectedDate.png */; };
+		A00F297C1A4AA6BB00CB4DC6 /* CalendarSelectedDate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F29631A4AA6BB00CB4DC6 /* CalendarSelectedDate@2x.png */; };
+		A00F297D1A4AA6BB00CB4DC6 /* CalendarTodaysDate.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F29641A4AA6BB00CB4DC6 /* CalendarTodaysDate.png */; };
+		A00F297E1A4AA6BB00CB4DC6 /* CalendarTodaysDate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A00F29651A4AA6BB00CB4DC6 /* CalendarTodaysDate@2x.png */; };
+		A00F297F1A4AA6BB00CB4DC6 /* TSQCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F29681A4AA6BB00CB4DC6 /* TSQCalendarCell.m */; };
+		A00F29801A4AA6BB00CB4DC6 /* TSQCalendarMonthHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F296A1A4AA6BB00CB4DC6 /* TSQCalendarMonthHeaderCell.m */; };
+		A00F29811A4AA6BB00CB4DC6 /* TSQCalendarRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F296C1A4AA6BB00CB4DC6 /* TSQCalendarRowCell.m */; };
+		A00F29821A4AA6BB00CB4DC6 /* TSQCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F296E1A4AA6BB00CB4DC6 /* TSQCalendarView.m */; };
+		A00F29831A4AA6BB00CB4DC6 /* TSQTACalendarRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F29701A4AA6BB00CB4DC6 /* TSQTACalendarRowCell.m */; };
+		A00F29841A4AA6BB00CB4DC6 /* TMDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F29721A4AA6BB00CB4DC6 /* TMDatePickerViewController.m */; };
+		A00F29851A4AA6BB00CB4DC6 /* TMDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00F29731A4AA6BB00CB4DC6 /* TMDatePickerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00F29471A4A98D800CB4DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00F29251A4A98D700CB4DC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00F292C1A4A98D700CB4DC6;
+			remoteInfo = TMDatePickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00F292D1A4A98D700CB4DC6 /* TMDatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00F29311A4A98D700CB4DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00F29321A4A98D700CB4DC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A00F29341A4A98D700CB4DC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A00F29351A4A98D800CB4DC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A00F29371A4A98D800CB4DC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A00F29381A4A98D800CB4DC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A00F293B1A4A98D800CB4DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00F293D1A4A98D800CB4DC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A00F29401A4A98D800CB4DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A00F29461A4A98D800CB4DC6 /* TMDatePickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDatePickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00F294B1A4A98D800CB4DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00F294C1A4A98D800CB4DC6 /* TMDatePickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDatePickerViewTests.m; sourceTree = "<group>"; };
+		A00F29591A4AA6BB00CB4DC6 /* CustomTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTimePicker.h; sourceTree = "<group>"; };
+		A00F295A1A4AA6BB00CB4DC6 /* CustomTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTimePicker.m; sourceTree = "<group>"; };
+		A00F295C1A4AA6BB00CB4DC6 /* CalendarPreviousMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarPreviousMonth.png; sourceTree = "<group>"; };
+		A00F295D1A4AA6BB00CB4DC6 /* CalendarPreviousMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarPreviousMonth@2x.png"; sourceTree = "<group>"; };
+		A00F295E1A4AA6BB00CB4DC6 /* CalendarRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarRow.png; sourceTree = "<group>"; };
+		A00F295F1A4AA6BB00CB4DC6 /* CalendarRow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarRow@2x.png"; sourceTree = "<group>"; };
+		A00F29601A4AA6BB00CB4DC6 /* CalendarRowBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarRowBottom.png; sourceTree = "<group>"; };
+		A00F29611A4AA6BB00CB4DC6 /* CalendarRowBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarRowBottom@2x.png"; sourceTree = "<group>"; };
+		A00F29621A4AA6BB00CB4DC6 /* CalendarSelectedDate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarSelectedDate.png; sourceTree = "<group>"; };
+		A00F29631A4AA6BB00CB4DC6 /* CalendarSelectedDate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarSelectedDate@2x.png"; sourceTree = "<group>"; };
+		A00F29641A4AA6BB00CB4DC6 /* CalendarTodaysDate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarTodaysDate.png; sourceTree = "<group>"; };
+		A00F29651A4AA6BB00CB4DC6 /* CalendarTodaysDate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarTodaysDate@2x.png"; sourceTree = "<group>"; };
+		A00F29661A4AA6BB00CB4DC6 /* TimesSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesSquare.h; sourceTree = "<group>"; };
+		A00F29671A4AA6BB00CB4DC6 /* TSQCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarCell.h; sourceTree = "<group>"; };
+		A00F29681A4AA6BB00CB4DC6 /* TSQCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarCell.m; sourceTree = "<group>"; };
+		A00F29691A4AA6BB00CB4DC6 /* TSQCalendarMonthHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarMonthHeaderCell.h; sourceTree = "<group>"; };
+		A00F296A1A4AA6BB00CB4DC6 /* TSQCalendarMonthHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarMonthHeaderCell.m; sourceTree = "<group>"; };
+		A00F296B1A4AA6BB00CB4DC6 /* TSQCalendarRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarRowCell.h; sourceTree = "<group>"; };
+		A00F296C1A4AA6BB00CB4DC6 /* TSQCalendarRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarRowCell.m; sourceTree = "<group>"; };
+		A00F296D1A4AA6BB00CB4DC6 /* TSQCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarView.h; sourceTree = "<group>"; };
+		A00F296E1A4AA6BB00CB4DC6 /* TSQCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarView.m; sourceTree = "<group>"; };
+		A00F296F1A4AA6BB00CB4DC6 /* TSQTACalendarRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQTACalendarRowCell.h; sourceTree = "<group>"; };
+		A00F29701A4AA6BB00CB4DC6 /* TSQTACalendarRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQTACalendarRowCell.m; sourceTree = "<group>"; };
+		A00F29711A4AA6BB00CB4DC6 /* TMDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDatePickerViewController.h; sourceTree = "<group>"; };
+		A00F29721A4AA6BB00CB4DC6 /* TMDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDatePickerViewController.m; sourceTree = "<group>"; };
+		A00F29731A4AA6BB00CB4DC6 /* TMDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMDatePickerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00F292A1A4A98D700CB4DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F29431A4A98D800CB4DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00F29241A4A98D700CB4DC6 = {
+			isa = PBXGroup;
+			children = (
+				A00F29561A4AA6BA00CB4DC6 /* TMDATEPICKER */,
+				A00F292F1A4A98D700CB4DC6 /* TMDatePickerView */,
+				A00F29491A4A98D800CB4DC6 /* TMDatePickerViewTests */,
+				A00F292E1A4A98D700CB4DC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00F292E1A4A98D700CB4DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00F292D1A4A98D700CB4DC6 /* TMDatePickerView.app */,
+				A00F29461A4A98D800CB4DC6 /* TMDatePickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00F292F1A4A98D700CB4DC6 /* TMDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A00F29341A4A98D700CB4DC6 /* AppDelegate.h */,
+				A00F29351A4A98D800CB4DC6 /* AppDelegate.m */,
+				A00F29371A4A98D800CB4DC6 /* ViewController.h */,
+				A00F29381A4A98D800CB4DC6 /* ViewController.m */,
+				A00F293A1A4A98D800CB4DC6 /* Main.storyboard */,
+				A00F293D1A4A98D800CB4DC6 /* Images.xcassets */,
+				A00F293F1A4A98D800CB4DC6 /* LaunchScreen.xib */,
+				A00F29301A4A98D700CB4DC6 /* Supporting Files */,
+			);
+			path = TMDatePickerView;
+			sourceTree = "<group>";
+		};
+		A00F29301A4A98D700CB4DC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00F29311A4A98D700CB4DC6 /* Info.plist */,
+				A00F29321A4A98D700CB4DC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A00F29491A4A98D800CB4DC6 /* TMDatePickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00F294C1A4A98D800CB4DC6 /* TMDatePickerViewTests.m */,
+				A00F294A1A4A98D800CB4DC6 /* Supporting Files */,
+			);
+			path = TMDatePickerViewTests;
+			sourceTree = "<group>";
+		};
+		A00F294A1A4A98D800CB4DC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00F294B1A4A98D800CB4DC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A00F29561A4AA6BA00CB4DC6 /* TMDATEPICKER */ = {
+			isa = PBXGroup;
+			children = (
+				A00F29571A4AA6BB00CB4DC6 /* TimesSquareCal */,
+				A00F29711A4AA6BB00CB4DC6 /* TMDatePickerViewController.h */,
+				A00F29721A4AA6BB00CB4DC6 /* TMDatePickerViewController.m */,
+				A00F29731A4AA6BB00CB4DC6 /* TMDatePickerViewController.xib */,
+			);
+			path = TMDATEPICKER;
+			sourceTree = "<group>";
+		};
+		A00F29571A4AA6BB00CB4DC6 /* TimesSquareCal */ = {
+			isa = PBXGroup;
+			children = (
+				A00F29581A4AA6BB00CB4DC6 /* CustomTimePicker */,
+				A00F295B1A4AA6BB00CB4DC6 /* Images */,
+				A00F29661A4AA6BB00CB4DC6 /* TimesSquare.h */,
+				A00F29671A4AA6BB00CB4DC6 /* TSQCalendarCell.h */,
+				A00F29681A4AA6BB00CB4DC6 /* TSQCalendarCell.m */,
+				A00F29691A4AA6BB00CB4DC6 /* TSQCalendarMonthHeaderCell.h */,
+				A00F296A1A4AA6BB00CB4DC6 /* TSQCalendarMonthHeaderCell.m */,
+				A00F296B1A4AA6BB00CB4DC6 /* TSQCalendarRowCell.h */,
+				A00F296C1A4AA6BB00CB4DC6 /* TSQCalendarRowCell.m */,
+				A00F296D1A4AA6BB00CB4DC6 /* TSQCalendarView.h */,
+				A00F296E1A4AA6BB00CB4DC6 /* TSQCalendarView.m */,
+				A00F296F1A4AA6BB00CB4DC6 /* TSQTACalendarRowCell.h */,
+				A00F29701A4AA6BB00CB4DC6 /* TSQTACalendarRowCell.m */,
+			);
+			path = TimesSquareCal;
+			sourceTree = "<group>";
+		};
+		A00F29581A4AA6BB00CB4DC6 /* CustomTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A00F29591A4AA6BB00CB4DC6 /* CustomTimePicker.h */,
+				A00F295A1A4AA6BB00CB4DC6 /* CustomTimePicker.m */,
+			);
+			path = CustomTimePicker;
+			sourceTree = "<group>";
+		};
+		A00F295B1A4AA6BB00CB4DC6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A00F295C1A4AA6BB00CB4DC6 /* CalendarPreviousMonth.png */,
+				A00F295D1A4AA6BB00CB4DC6 /* CalendarPreviousMonth@2x.png */,
+				A00F295E1A4AA6BB00CB4DC6 /* CalendarRow.png */,
+				A00F295F1A4AA6BB00CB4DC6 /* CalendarRow@2x.png */,
+				A00F29601A4AA6BB00CB4DC6 /* CalendarRowBottom.png */,
+				A00F29611A4AA6BB00CB4DC6 /* CalendarRowBottom@2x.png */,
+				A00F29621A4AA6BB00CB4DC6 /* CalendarSelectedDate.png */,
+				A00F29631A4AA6BB00CB4DC6 /* CalendarSelectedDate@2x.png */,
+				A00F29641A4AA6BB00CB4DC6 /* CalendarTodaysDate.png */,
+				A00F29651A4AA6BB00CB4DC6 /* CalendarTodaysDate@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00F292C1A4A98D700CB4DC6 /* TMDatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00F29501A4A98D800CB4DC6 /* Build configuration list for PBXNativeTarget "TMDatePickerView" */;
+			buildPhases = (
+				A00F29291A4A98D700CB4DC6 /* Sources */,
+				A00F292A1A4A98D700CB4DC6 /* Frameworks */,
+				A00F292B1A4A98D700CB4DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMDatePickerView;
+			productName = TMDatePickerView;
+			productReference = A00F292D1A4A98D700CB4DC6 /* TMDatePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00F29451A4A98D800CB4DC6 /* TMDatePickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00F29531A4A98D800CB4DC6 /* Build configuration list for PBXNativeTarget "TMDatePickerViewTests" */;
+			buildPhases = (
+				A00F29421A4A98D800CB4DC6 /* Sources */,
+				A00F29431A4A98D800CB4DC6 /* Frameworks */,
+				A00F29441A4A98D800CB4DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00F29481A4A98D800CB4DC6 /* PBXTargetDependency */,
+			);
+			name = TMDatePickerViewTests;
+			productName = TMDatePickerViewTests;
+			productReference = A00F29461A4A98D800CB4DC6 /* TMDatePickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00F29251A4A98D700CB4DC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Amit kumar";
+				TargetAttributes = {
+					A00F292C1A4A98D700CB4DC6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A00F29451A4A98D800CB4DC6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A00F292C1A4A98D700CB4DC6;
+					};
+				};
+			};
+			buildConfigurationList = A00F29281A4A98D700CB4DC6 /* Build configuration list for PBXProject "TMDatePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00F29241A4A98D700CB4DC6;
+			productRefGroup = A00F292E1A4A98D700CB4DC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00F292C1A4A98D700CB4DC6 /* TMDatePickerView */,
+				A00F29451A4A98D800CB4DC6 /* TMDatePickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00F292B1A4A98D700CB4DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00F297B1A4AA6BB00CB4DC6 /* CalendarSelectedDate.png in Resources */,
+				A00F29851A4AA6BB00CB4DC6 /* TMDatePickerViewController.xib in Resources */,
+				A00F29771A4AA6BB00CB4DC6 /* CalendarRow.png in Resources */,
+				A00F297A1A4AA6BB00CB4DC6 /* CalendarRowBottom@2x.png in Resources */,
+				A00F293C1A4A98D800CB4DC6 /* Main.storyboard in Resources */,
+				A00F29751A4AA6BB00CB4DC6 /* CalendarPreviousMonth.png in Resources */,
+				A00F29761A4AA6BB00CB4DC6 /* CalendarPreviousMonth@2x.png in Resources */,
+				A00F29781A4AA6BB00CB4DC6 /* CalendarRow@2x.png in Resources */,
+				A00F297C1A4AA6BB00CB4DC6 /* CalendarSelectedDate@2x.png in Resources */,
+				A00F297E1A4AA6BB00CB4DC6 /* CalendarTodaysDate@2x.png in Resources */,
+				A00F29411A4A98D800CB4DC6 /* LaunchScreen.xib in Resources */,
+				A00F297D1A4AA6BB00CB4DC6 /* CalendarTodaysDate.png in Resources */,
+				A00F293E1A4A98D800CB4DC6 /* Images.xcassets in Resources */,
+				A00F29791A4AA6BB00CB4DC6 /* CalendarRowBottom.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F29441A4A98D800CB4DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00F29291A4A98D700CB4DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00F29801A4AA6BB00CB4DC6 /* TSQCalendarMonthHeaderCell.m in Sources */,
+				A00F29821A4AA6BB00CB4DC6 /* TSQCalendarView.m in Sources */,
+				A00F29811A4AA6BB00CB4DC6 /* TSQCalendarRowCell.m in Sources */,
+				A00F29391A4A98D800CB4DC6 /* ViewController.m in Sources */,
+				A00F29741A4AA6BB00CB4DC6 /* CustomTimePicker.m in Sources */,
+				A00F297F1A4AA6BB00CB4DC6 /* TSQCalendarCell.m in Sources */,
+				A00F29831A4AA6BB00CB4DC6 /* TSQTACalendarRowCell.m in Sources */,
+				A00F29841A4AA6BB00CB4DC6 /* TMDatePickerViewController.m in Sources */,
+				A00F29361A4A98D800CB4DC6 /* AppDelegate.m in Sources */,
+				A00F29331A4A98D700CB4DC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F29421A4A98D800CB4DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00F294D1A4A98D800CB4DC6 /* TMDatePickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00F29481A4A98D800CB4DC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00F292C1A4A98D700CB4DC6 /* TMDatePickerView */;
+			targetProxy = A00F29471A4A98D800CB4DC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00F293A1A4A98D800CB4DC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00F293B1A4A98D800CB4DC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00F293F1A4A98D800CB4DC6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00F29401A4A98D800CB4DC6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00F294E1A4A98D800CB4DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A00F294F1A4A98D800CB4DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00F29511A4A98D800CB4DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TMDatePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A00F29521A4A98D800CB4DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TMDatePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A00F29541A4A98D800CB4DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TMDatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDatePickerView.app/TMDatePickerView";
+			};
+			name = Debug;
+		};
+		A00F29551A4A98D800CB4DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TMDatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDatePickerView.app/TMDatePickerView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00F29281A4A98D700CB4DC6 /* Build configuration list for PBXProject "TMDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00F294E1A4A98D800CB4DC6 /* Debug */,
+				A00F294F1A4A98D800CB4DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A00F29501A4A98D800CB4DC6 /* Build configuration list for PBXNativeTarget "TMDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00F29511A4A98D800CB4DC6 /* Debug */,
+				A00F29521A4A98D800CB4DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A00F29531A4A98D800CB4DC6 /* Build configuration list for PBXNativeTarget "TMDatePickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00F29541A4A98D800CB4DC6 /* Debug */,
+				A00F29551A4A98D800CB4DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00F29251A4A98D700CB4DC6 /* Project object */;
+}
